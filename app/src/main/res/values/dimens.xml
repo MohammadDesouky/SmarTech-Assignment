@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="expanded_tool_bar_height">225dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="normalPadding">8dp</dimen>
+    <dimen name="normalMargin">8dp</dimen>
+    <dimen name="mediumMargin">16dp</dimen>
+    <dimen name="mediumPadding">16dp</dimen>
+</resources>
