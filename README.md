@@ -1,7 +1,7 @@
-# ElMenus-Assignment
+# SmarTech-Assignment
 
 ## Background
-This is an android app which talk to two dummy Apis a food tags comes in pages the page has eight tags each of which has a list of of food items which comes from the scond api in a static list of items this app mainly consists of two activities one for tags and it's items and the other one for the item details.
+This is an android app which displaying a repos of Jake Wharton in just a paginated recycler view
 
 ## Screenshots
 <img  src="https://user-images.githubusercontent.com/5509571/62429178-7e1f1400-b70b-11e9-9c05-b6b9da92c8be.png" alt="Splash" width="250"/> <img  src="https://user-images.githubusercontent.com/5509571/62429179-8414f500-b70b-11e9-9a4a-8a3b2a0638d9.png" alt="Normal View" width="250"/> <img src="https://user-images.githubusercontent.com/5509571/62429180-89723f80-b70b-11e9-8c0a-054df16a43f9.png" alt="Item Details" width="250"/> 
