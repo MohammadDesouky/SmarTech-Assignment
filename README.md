@@ -46,8 +46,11 @@ doAsync{
 2. Start activties e.g.
 ```startActivity<MainActivity>()```
 * Room
+<br/>
 used to cache both of food tags and food items in a local sqlite database.
+<br/>
 * Dagger2
+<br/>
 I Used dagger to inject some of dependencies but not all, just as a concept.
 
 
