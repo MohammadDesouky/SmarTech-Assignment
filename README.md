@@ -10,7 +10,7 @@ This is an android app which displaying repos of Jake Wharton in just a recycler
 
 
 ## Technical overview
- 1. I used MVVM with the modern architecture components in the architecture of the app 
+ 1. I used MVVM with the modern architecture components in the architecture of the app:
  ![image](https://user-images.githubusercontent.com/5509571/62429675-c6413500-b711-11e9-8bb2-40828606f41d.png)
  and the new paging technology in the Repos list:
  ![alt](https://codelabs.developers.google.com/codelabs/android-paging/img/a4f392ad4ae49042.gif)
@@ -21,20 +21,15 @@ This is an android app which displaying repos of Jake Wharton in just a recycler
   * There is cached data: you will see a snack bar tells you you're offline and whenever  you get connected it will disappear 
   
 3. Error handling, I didn't handled the error well, but I made two basic error handling: 
-   * If any error occures including the offline state while loading the list of items (not tags) you will see error message with retry button
-   * also if any loading of images errors occurred the error place holder image will be shown.
-4. There is always a room for improvments I like to begin with more test cases to cover more scenarios, also the item details needs some enhancements  
+   * If any error occurred including the offline state while loading the list of repos, you will see error message with retry button
+4. There is always a room for improvements I like to begin with more test cases to cover more scenarios.  
    
-## Notes: 
-   * The Api needs a header of Content-Type to be Application/json which is only supposed to be needed in POST requests only, but it's seems it's removed as a condition in a request  
-   * There is a fast splash screen with default wait time of a half second
-   The main activity is big a little bit due to ui handling including show/hide  errors and progress bars and views
-   * I named the app El-Menus with dash to be different from the *elmenus* app
-   * Naming: I'm not familiar with this kind of apps, you might be confused of names,btw I considerd the tags as FoodTags and list of items as TagItems or SelectedTagItems  ^_^ 
+## Notes:   
+   * There is a fast splash screen with default wait time of a half second. 
  
-## Libs:
+## Third-Party Libs:
 * Retrofit
-Used as RESTful client,also I made the ok http client loges the apis response in only debug builds!
+Used as RESTful client,also I made the ok http client logs the apis response in only debug builds!
 * Anko
 Used in:
 
@@ -73,4 +68,5 @@ I Used dagger to inject some of dependencies but not all, just as a concept.
 ### Dagger2:
 * https://www.simplifiedcoding.net/dagger-2-android-example/
 * https://dagger.dev/users-guide
+<br/>
 Thank you! :wink:
