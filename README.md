@@ -20,7 +20,7 @@ This is an android app which displaying repos of Jake Wharton in just a recycler
   to get in this state make mobile offline in a fresh install and open the app
   * There is cached data: you will see a snack bar tells you you're offline and whenever  you get connected it will disappear 
   
-3. Error handling, I didn't handled the error well, but I made two basic error handling: 
+3. Error handling, I didn't handled the error well, but I made basic error handling: 
    * If any error occurred including the offline state while loading the list of repos, you will see error message with retry button
 4. There is always a room for improvements I like to begin with more test cases to cover more scenarios.  
    
@@ -46,7 +46,7 @@ doAsync{
 2. Start activties e.g.
 ```startActivity<MainActivity>()```
 * Room<br/>
-used to cache both of food tags and food items in a local sqlite database.
+used to cache the user repos.
 * Dagger2<br/>
 I Used dagger to inject some of dependencies but not all, just as a concept.
 
